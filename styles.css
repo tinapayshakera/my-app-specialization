@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  margin: auto;
+}
+.img{
+  background-image: url("https://w0.peakpx.com/wallpaper/465/678/HD-wallpaper-blue-abstract-background-blue-creative-background-neon-lines-background-neon-blue-light.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

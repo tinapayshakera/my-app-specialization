@@ -1,0 +1,19 @@
+<div class="body">
+  <div class="second">
+    <h1>{{title}}</h1>
+    <br>
+    <h2>My First Angular Project </h2>
+  </div>
+  <!-- <app-fourth></app-fourth>
+  <app-third></app-third>
+  <app-second (secondOutput)="receiveEvent()"></app-second>
+  <app-first [firstInput]="numberValue"></app-first>
+  <input type="text" [(ngModel)]="inputValue">
+  <br>
+  <button [disabled]="isDisabled" (click)="sampleClick()">Sample</button>
+  <button (click)="increaseValue()">Add</button> -->
+  <br><br>
+  <h2>Score: {{numberValue}}</h2>
+        <app-add (addOut)="receiveAdd()"></app-add>
+        <app-subtract (subtractOut)="receiveSubtract()"></app-subtract>
+</div>
